@@ -1,0 +1,66 @@
+{
+    "schemaName": "issuerrisk",
+    "dimensionFieldSpecs": [
+      {
+        "name": "UID",
+        "dataType": "STRING"
+      },
+      {
+        "name": "Content",
+        "dataType": "STRING"
+      }
+    ],
+    "metricFieldSpecs": [
+      {
+        "name": "JTD1",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD2",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD3",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD4",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD5",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD6",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD7",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD8",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD9",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "JTD10",
+        "dataType": "DOUBLE"
+      }
+    ],
+    "dateTimeFieldSpecs": [
+      {
+        "name": "UpdatedTime",
+        "dataType": "LONG",
+        "format": "1:MILLISECONDS:EPOCH",
+        "granularity": "1:MILLISECONDS"
+      }
+    ],
+    "primaryKeyColumns": [
+        "UID"
+    ]
+  }
